@@ -15,7 +15,7 @@ public class Server {
     private Long id ;
     @Column(unique = true)
     @NotNull(message = "ipAdress can not be null")
-    private String ipAdress ;
+    private String ipAddress ;
     private String name ;
     private String memory ;
     private String type ;
